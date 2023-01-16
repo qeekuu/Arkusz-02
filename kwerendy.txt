@@ -1,0 +1,5 @@
+Kweredna 1. SELECT * FROM pokoj;
+Kwerenda 2. SELECT id_pok,sezon FROM rezerwacje WHERE liczba_dn > 7;
+Kwerenda 3. SELECT SUM(liczba_dn) FROM rezerwacje WHERE sezon = "zima";
+Kwerenda 4. UPDATE rezerwacje SET liczba_dn = 4 WHERE liczba_dn < 4;
+Kwerenda 5. CREATE USER 'najemca''@localhost' IDENTIFIED BY "n@JEM1@1";
